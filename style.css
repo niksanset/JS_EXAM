@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap');
+
+ 
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+  
+
+}
+*,
+*::before,
+*::after {
+ box-sizing: inherit;   
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: rgb(0, 10, 7);
+}
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 15px 28px;
+    border-radius: 30px;
+    background-color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    animation: zoomIn; 
+    animation-duration: 1s; 
+}
+.main-div {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+animation: zoomIn; 
+animation-duration: 1s; 
+
+
+
+
+
+   
+}
+
+  
+.char-div {
+    width: 370px;
+    height: 250px;
+    font-size: 34px;
+    margin: 100px;
+    padding-top: 100px;
+    color: #000000;
+    animation: zoomIn; 
+    animation-duration: 1s; 
+    color: white;
+  
+
+   
+
+
+
+
+   
+    
+
+
+}
+.char-image {
+border-radius: 5%;
+filter: saturate(130%);
+box-shadow: 2px 0px 31px -5px rgba(34, 60, 80, 0.19);
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 20px;
+    left: 1700px;
+    width: 100%;
+ 
+
+  }
+.logo {
+    animation: zoomIn; 
+    animation-duration: 1s; 
+}
+.bg {
+    background: url(bg.png);
+   
+}
+ 
+
+
+
+
+  
